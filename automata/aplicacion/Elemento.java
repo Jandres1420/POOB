@@ -20,5 +20,5 @@ public interface Elemento{
   default boolean isVivo(){
       return false;
   }
-  
+
 }

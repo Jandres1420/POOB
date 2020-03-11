@@ -30,9 +30,8 @@ public class Celula implements Elemento{
         estadoSiguiente=VIVA;
         edad=0;
         automata.setElemento(fila,columna,(Elemento)this);  
-        color=Color.blue;
+        color =Color.blue;
     }
-
     /**Retorna la fila del automata en que se encuentra 
     @return 
      */
@@ -48,7 +47,6 @@ public class Celula implements Elemento{
         return columna;
     }
 
-    
     /**Retorna el color de  la célula
     @return 
      */
